@@ -47,16 +47,12 @@ export default function Navigation() {
                             initial={{ opacity: 0, x: -20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.6 }}
-                            className="flex items-center gap-3"
                         >
                             <img
-                                src="/logo-icon.svg"
-                                alt="Blubloom"
-                                className="w-10 h-10"
+                                src="/logo.svg"
+                                alt="Blubloom Interior"
+                                className="h-12 sm:h-14 w-auto"
                             />
-                            <span className="hidden sm:block text-[--warm-ivory] font-heading text-lg tracking-wide">
-                                Blubloom
-                            </span>
                         </motion.div>
                     </Link>
 

@@ -1,34 +1,36 @@
-<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 420 100" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#4a6b8a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1a365d;stop-opacity:1" />
-    </linearGradient>
+    <!-- Gradient for hexagon -->
     <linearGradient id="hexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#8a9bab;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#4a6b8a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1a365d;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#a8b5c4"/>
+      <stop offset="30%" style="stop-color:#6b8399"/>
+      <stop offset="70%" style="stop-color:#3d5a73"/>
+      <stop offset="100%" style="stop-color:#1a3a5c"/>
+    </linearGradient>
+    <!-- Gradient for B letter -->
+    <linearGradient id="bGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5a7a99"/>
+      <stop offset="100%" style="stop-color:#1a4a6e"/>
     </linearGradient>
   </defs>
   
-  <!-- Hexagon with B -->
-  <g transform="translate(10, 10)">
-    <!-- Outer hexagon shape -->
-    <path d="M45 0 L90 26 L90 78 L45 104 L0 78 L0 26 Z" fill="url(#hexGradient)" opacity="0.9"/>
-    
-    <!-- Inner B shape -->
-    <path d="M30 20 L30 84 L35 84 L35 54 L55 54 C65 54 70 48 70 40 C70 30 62 20 50 20 Z M35 25 L48 25 C58 25 64 32 64 40 C64 46 60 50 52 50 L35 50 Z" fill="white"/>
-    
-    <!-- Bottom part of B -->
-    <path d="M35 56 L35 80 L55 80 C68 80 75 72 75 64 C75 55 67 56 55 56 Z M40 60 L52 60 C62 60 68 62 68 68 C68 74 64 76 54 76 L40 76 Z" fill="white" opacity="0.9"/>
+  <!-- Hexagon outer shape -->
+  <path d="M42 5 L80 25 L80 70 L42 90 L4 70 L4 25 Z" fill="url(#hexGradient)"/>
+  
+  <!-- Inner white/light B shape -->
+  <g transform="translate(18, 22)">
+    <!-- Top part of B -->
+    <path d="M8 0 L8 52 L14 52 L14 28 L28 28 C36 28 42 22 42 14 C42 6 36 0 28 0 Z M14 6 L26 6 C32 6 36 9 36 14 C36 19 32 22 26 22 L14 22 Z" fill="white"/>
+    <!-- Bottom bowl of B -->
+    <path d="M14 30 L14 48 L30 48 C40 48 46 42 46 36 C46 30 40 30 30 30 Z M20 34 L28 34 C34 34 38 35 38 38 C38 41 35 44 28 44 L20 44 Z" fill="rgba(255,255,255,0.9)"/>
   </g>
   
-  <!-- Text: BLUBLOOM -->
-  <text x="115" y="50" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#2d4a5e" letter-spacing="2">BLUBLOOM</text>
+  <!-- BLUBLOOM text -->
+  <text x="95" y="38" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="#3d5a73" letter-spacing="1.5">BLUBLOOM</text>
   
-  <!-- Text: INTERIOR -->
-  <text x="115" y="88" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#1a365d" letter-spacing="2">INTERIOR</text>
+  <!-- INTERIOR text -->
+  <text x="95" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="#2a4a5e" letter-spacing="1.5">INTERIOR</text>
   
   <!-- Tagline -->
-  <text x="115" y="108" font-family="Arial, sans-serif" font-size="11" fill="#4a6b8a" letter-spacing="3">LET'S SPEAK YOUR HOME</text>
+  <text x="95" y="88" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5a7a8e" letter-spacing="2" font-weight="500">LET'S SPEAK YOUR HOME</text>
 </svg>

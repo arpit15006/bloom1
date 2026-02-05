@@ -31,15 +31,12 @@ export default function Footer() {
                     <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8">
                         {/* Brand */}
                         <div className="max-w-sm">
-                            <Link href="/" className="inline-flex items-center gap-3 mb-4">
+                            <Link href="/" className="inline-block mb-4">
                                 <img
-                                    src="/logo-icon.svg"
-                                    alt="Blubloom"
-                                    className="w-11 h-11"
+                                    src="/logo.svg"
+                                    alt="Blubloom Interior"
+                                    className="h-14 w-auto"
                                 />
-                                <span className="text-[--warm-ivory] font-heading text-xl tracking-wide">
-                                    Blubloom
-                                </span>
                             </Link>
                             <p className="text-[--platinum] text-sm leading-relaxed">
                                 A global, multi-disciplinary design studio shaping how people
