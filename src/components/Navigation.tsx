@@ -36,8 +36,8 @@ export default function Navigation() {
         <>
             <header
                 className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
-                        ? "bg-[--midnight-charcoal]/95 backdrop-blur-md py-4"
-                        : "bg-transparent py-6"
+                    ? "bg-[--midnight-charcoal]/95 backdrop-blur-md py-4"
+                    : "bg-transparent py-6"
                     }`}
             >
                 <div className="container flex items-center justify-between">
@@ -49,11 +49,11 @@ export default function Navigation() {
                             transition={{ duration: 0.6 }}
                             className="flex items-center gap-3"
                         >
-                            <div className="w-10 h-10 bg-[--royal-blue] flex items-center justify-center">
-                                <span className="text-[--warm-ivory] font-heading text-xl font-semibold">
-                                    B
-                                </span>
-                            </div>
+                            <img
+                                src="/logo-icon.svg"
+                                alt="Blubloom"
+                                className="w-10 h-10"
+                            />
                             <span className="hidden sm:block text-[--warm-ivory] font-heading text-lg tracking-wide">
                                 Blubloom
                             </span>
@@ -132,8 +132,8 @@ export default function Navigation() {
                                     <Link
                                         href={link.href}
                                         className={`text-2xl font-heading tracking-wide transition-colors ${pathname === link.href
-                                                ? "text-[--gold]"
-                                                : "text-[--warm-ivory] hover:text-[--gold]"
+                                            ? "text-[--gold]"
+                                            : "text-[--warm-ivory] hover:text-[--gold]"
                                             }`}
                                     >
                                         {link.label}

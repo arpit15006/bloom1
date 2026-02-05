@@ -32,11 +32,11 @@ export default function Footer() {
                         {/* Brand */}
                         <div className="max-w-sm">
                             <Link href="/" className="inline-flex items-center gap-3 mb-4">
-                                <div className="w-11 h-11 bg-[--royal-blue] flex items-center justify-center">
-                                    <span className="text-[--warm-ivory] font-heading text-xl font-semibold">
-                                        B
-                                    </span>
-                                </div>
+                                <img
+                                    src="/logo-icon.svg"
+                                    alt="Blubloom"
+                                    className="w-11 h-11"
+                                />
                                 <span className="text-[--warm-ivory] font-heading text-xl tracking-wide">
                                     Blubloom
                                 </span>

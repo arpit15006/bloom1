@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8a9bab;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4a6b8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a365d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Hexagon shape -->
+  <path d="M50 5 L95 27.5 L95 72.5 L50 95 L5 72.5 L5 27.5 Z" fill="url(#hexGrad)"/>
+  
+  <!-- B letter - top part -->
+  <path d="M30 18 L30 82 L38 82 L38 52 L55 52 C70 52 78 42 78 32 C78 22 68 18 55 18 Z M38 26 L52 26 C62 26 68 30 68 38 C68 46 62 48 52 48 L38 48 Z" fill="white"/>
+  
+  <!-- B letter - bottom bowl -->
+  <path d="M38 54 L38 76 L58 76 C72 76 80 68 80 62 C80 54 70 54 58 54 Z M46 60 L55 60 C65 60 70 62 70 66 C70 70 66 72 56 72 L46 72 Z" fill="white" opacity="0.95"/>
+</svg>
